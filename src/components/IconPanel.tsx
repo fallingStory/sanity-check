@@ -68,7 +68,7 @@ function IconPanel(props: Props) {
             nextPage={goToNextPage}
             prevPage={goToPrevPage}
           />
-          <Button onClick={collapse}>
+          <Button className="collapse" onClick={collapse}>
             <img src={buttonSRC} alt="collapse"></img>
           </Button>
         </span>

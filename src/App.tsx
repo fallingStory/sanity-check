@@ -129,7 +129,7 @@ function App() {
     <>
       <header>
         <h1 className="font-big" id="title">
-          TNO GFX Search
+          TNO GFX SEARCH
         </h1>
         <input
           type="text"

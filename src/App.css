@@ -3,7 +3,7 @@
   --blue-faded: #a5e0de;
   --background-bright: #050c16;
   --background-faded: #08101b;
-  background-color: white;
+  background-color: var(--background-bright);
   overflow-y: scroll;
   font-family: url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
 }
@@ -23,7 +23,7 @@ h3,
 p,
 input {
   font-family: "Aldrich", monospace, Courier;
-  color: black;
+  color: var(--blue-faded);
 }
 
 header {
@@ -42,8 +42,13 @@ input {
   margin: 0.5em auto 0.5em auto;
   padding-left: 1em;
   border-radius: 5px;
-  border: 1px black solid;
-  background-color: white;
+  border: 1px var(--blue-faded) solid;
+  background-color: var(--background-bright);
+  color: var(--blue-bright);
+}
+
+::placeholder {
+  color: var(--blue-bright);
 }
 
 #title {
